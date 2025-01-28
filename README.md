@@ -1,18 +1,16 @@
-# Xeon Protocol Testnet Utils
+# Testnet Onboarding Utils
 
-[![GitHub license](https://img.shields.io/badge/incl_license-GPL_3.0-blue.svg)](https://github.com/xeon-protocol/xeon-testnet/blob/main/LICENSE-GPL.md)
+[![GitHub license](https://img.shields.io/badge/incl_license-GPL_3.0-blue.svg)](https://github.com/heyjonbray/xeon-testnet/blob/main/LICENSE-GPL.md)
 
-[![xeon token](https://img.shields.io/badge/$XEON-0x8d65a2eaBDE4B31cbD7E43F27E47559d1CCec86c-8429c6.svg?logo=ethereum)](https://app.uniswap.org/explore/tokens/ethereum/0x8d65a2eabde4b31cbd7e43f27e47559d1ccec86c?chain=mainnet)
+This repository contains the core and utility contracts for a protocol token based testnet including test coverage and scripts. You can find the latest mainnet contracts here: [xeon-v1-core](https://github.com/heyjonbray/v1-core).
 
-This repository contains the core and utility contracts for Xeon Protocol testnet including tests, and scripts. For the frontend, see [xeon-dapp](https://github.com/xeon-protocol/xeon-dapp). You can find the latest mainnet contracts on our [v1-core](https://github.com/xeon-protocol/v1-core) repo.
+### Follow Me
 
-### Follow Us
-
-[![warpcast](https://img.shields.io/badge/Follow_@xeonprotocol-FFFFFF.svg?logo=farcaster)](https://warpcast.com/xeonprotocol) ![twitter follow](https://img.shields.io/twitter/follow/xeonprotocol) [![telegram](https://img.shields.io/badge/join_telegram-FFFFFF.svg?logo=telegram)](https://t.me/XeonProtocolPortal)
+[![warpcast](https://img.shields.io/badge/Follow_@jonbray.eth-FFFFFF.svg?logo=farcaster)](https://warpcast.com/jonbray.eth)
 
 ### Repo Status
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/xeon-protocol/xeon-testnet) ![GitHub contributors](https://img.shields.io/github/contributors/xeon-protocol/xeon-testnet)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/heyjonbray/xeon-testnet)
 
 ## Prerequisites
 
@@ -133,16 +131,12 @@ Then run the `forge script` command without the private key arg.
 
 💡 **When deploying a new contract, use the `--verify` arg to verify the contract on deployment.**
 
-## Product Management
-
-[![trello](https://img.shields.io/badge/Trello-855DCD.svg?logo=trello)](<[https://trello.com/b/mW198hKo/xeon-protocol-board](https://trello.com/invite/b/mW198hKo/ATTIc305ea03ad04139d54ef382b7a276d651224A655/xeon-protocol-board)>)
-
 ## Contributing
 
 ![PRs Open](https://img.shields.io/badge/PRs-open-darkgreen.svg)
 
-If you are an Solidity developer and are interested in auditing our `v1-core` contracts, you can submit an audit by using the form [here](https://github.com/xeon-protocol/xeon-dapp/issues/new?assignees=heyJonBray%2C+wellytg%2C+neonhedge&labels=type%3A+audit%2C+status%3A+discussing&projects=&template=04-audit-submission.md&title=xeon-xeon-v1+audit+%5BMM-DD-YYYY%5D-%5ByourName%5D).
+If you are an Solidity developer and are interested in auditing the `v1-core` contracts, you can submit an audit by using the form [here](https://github.com/heyjonbray/xeon-dapp/issues/new?assignees=heyJonBray%2C+wellytg%2C+neonhedge&labels=type%3A+audit%2C+status%3A+discussing&projects=&template=04-audit-submission.md&title=xeon-xeon-v1+audit+%5BMM-DD-YYYY%5D-%5ByourName%5D).
 
 ## Security
 
-For any security-related concerns, please refer to the [SECURITY](https://github.com/xeon-protocol/xeon-testnet/blob/main/SECURITY.md) policy. This repository is subject to a bug bounty program per the terms outlined in the aforementioned policy.
+For any security-related concerns, please refer to the [SECURITY](https://github.com/heyjonbray/xeon-testnet/blob/main/SECURITY.md) policy.
